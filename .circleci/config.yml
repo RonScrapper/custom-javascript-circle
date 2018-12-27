@@ -5,9 +5,8 @@ jobs: # a collection of steps
     docker: # run the steps with Docker
       - image: circleci/node:8.9 # ...with this image as the primary container; this is where all `steps` will run
       #- image: mongo:3.4.4 # and this image as the secondary service container
-      working_directory: ~/mern-starter # directory where steps will run
-    working_directory: ~/-express-circle
-    steps: # a collection of executable commands
+      working_directory: ~/-express-circle # directory where steps will run
+    steps: # a collection of executable commands 
       - checkout
       - run:
           name: update-npm
