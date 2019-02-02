@@ -8,6 +8,6 @@ jobs: # a collection of steps
       
     steps: # a collection of executable commands 
       - checkout
-      - run: npm install      
+      - run: npm install --save-dev      
       - run: bash <(curl -s https://scripts.scantist.com/staging/ci-circle-jar.sh)
     
