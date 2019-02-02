@@ -56,7 +56,9 @@
     "statuses": "~1.4.0",
     "type-is": "~1.6.16",
     "utils-merge": "1.0.1",
-    "vary": "~1.1.2"
+    "vary": "~1.1.2",
+    
+    "markdown-it": "4.3.1"
   },
   "devDependencies": {
     "after": "0.8.2",
